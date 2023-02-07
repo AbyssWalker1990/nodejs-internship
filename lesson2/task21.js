@@ -13,21 +13,12 @@
  * 
  */
 
-
 /**
  * 
  * @param {number} degree 
  * @param {string} scaleType examples: "c" or "f"
  * @returns {number}
  */
-
-/**
- * 
- * @param {number} degree 
- * @param {string} scaleType examples: "c" or "f"
- * @returns {number}
- */
-
 const convertTemp = (degree, scaleType) => {
   switch (scaleType) {
     case 'c':
@@ -44,3 +35,4 @@ const convertTemp = (degree, scaleType) => {
 
 const result = convertTemp(100, 'c')
 result ? console.log(result) : console.log('Haven\'t access from global scope to resultCels')
+
